@@ -1,10 +1,48 @@
 import React from 'react';
+import pic from './assets/pic.jpg';
+import './index.css';
 
 export default function Header() {
   return (
-    <header className="text-center py-5 bg-light shadow-sm">
-      <h1 className="display-5 fw-bold">Hi, I'm Riya – Graphic Designer</h1>
-      <p className="lead mt-2">Crafting bold identities, modern visuals & creative vibes</p>
-    </header>
+    <section className="section-dark" id="header">
+      <div className="container-fluid">
+        <header className=" section-dark py-5 shadow-sm" style={{ padding: '80px 20px', zIndex: 99 }}>
+          <div className="row d-flex align-items-center justify-content-center text-center">
+            {/* LEFT SIDE */}
+            <div className="col-md-8 text-md-start text-center">
+              <h1 className="text-white mb-1">Hello I'm 👋</h1>
+              <h1 className="gradient-text fw-bold mb-2">Uganvi Raja</h1>
+              <h4 className="text-light mb-4">Graphic Designer</h4>
+              <p
+                className="text-light"
+                style={{ fontSize: '1.1rem', lineHeight: '1.7', maxWidth: '700px' }}
+              >
+                👉 I'm a passionate graphic designer and video editor offering creative,
+                high-quality design services online. I specialize in <strong>logo design</strong>, 
+                <strong> branding</strong>, <strong>social media graphics</strong>, brochures, packaging,
+                and much more. <br />
+                My goal is to help businesses visually communicate their message and stand
+                out with professional, custom designs.
+              </p>
+              <a
+                href="https://wa.me/917324963502"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn btn-success mt-3"
+              >
+                <i className="fa-solid fa-phone-volume me-2"></i> Contact +91 7324963502
+              </a>
+            </div>
+
+            {/* RIGHT SIDE */}
+            <div className="col-md-4 d-flex justify-content-center mt-4 mt-md-0">
+              <div className="gradient-ring">
+                <img src={pic} alt="profile" className="img-fluid profile-img rounded-circle border border-3 border-light" />
+              </div>
+            </div>
+          </div>
+        </header>
+      </div>
+    </section>
   );
 }

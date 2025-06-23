@@ -1,13 +1,16 @@
 import React from 'react'
-import HomePage from './HomePage'
+import {BrowserRouter,Routes,Route} from 'react-router-dom';
+import HomePage from './HomePage';
+import ServiceDetail from './ServiceDetail';
 
 const App = () => {
   return (
-    <div>
-      <>
-      <HomePage />
-      </>
-    </div>
+   <BrowserRouter>
+   <Routes>
+    <Route path ="/" element={<HomePage />} />
+    <Route path ="/service/:id" element={<ServiceDetail />} />
+   </Routes>
+   </BrowserRouter>
   )
 }
 

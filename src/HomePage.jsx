@@ -1,6 +1,7 @@
 import React from 'react';
 import Navbar from './Navbar.jsx';
 import Header from './Header.jsx';
+import About from './About.jsx';
 import Services from './Services.jsx';
 import Gallery from './Gallery.jsx';
 import Testimonials from './Testimonials.jsx';
@@ -12,6 +13,7 @@ export default function HomePage() {
     <div>
       <Navbar />
       <Header />
+      <About/>
       <Services />
       <Gallery />
       <Testimonials />

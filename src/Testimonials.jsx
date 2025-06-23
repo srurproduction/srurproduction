@@ -4,7 +4,7 @@ export default function Testimonials() {
   const quotes = ["Amazing experience!", "Loved the branding work.", "Creative and professional!"];
 
   return (
-    <section id="testimonials" className="bg-light py-5 text-center">
+    <section id="testimonials" className=" section-dark  py-5 text-center">
       <h2 className="mb-4">What My Clients Say</h2>
       <div className="container">
         {quotes.map((quote, i) => (

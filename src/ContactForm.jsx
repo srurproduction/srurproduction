@@ -11,13 +11,13 @@ export default function ContactForm() {
     alert("Link copied to clipboard!");
   };
   return (
-    <section id="contact" className="container-fluid py-5" style={{ backgroundColor: '#f8f9fa',padding:'40px' }}>
+    <section id="contact" className=" section-dark container-fluid py-5" >
       <h1 className='text-center  fs-1 fw-bolder mb-4 underline-style'>Get In Touch</h1>
       <div className="container-fluid">
         <div className="row">
-          <div className="col-lg-6 col-md-12">
-      <h2 className="text-center fw-semibold mb-4">Send me a message</h2>
-      <h4 className="text-center mb-4">Fill out the form below and I'll get back to you as soon as possible.</h4>
+          <div className="col-lg-6 col-md-6">
+      <h2 className=" text-center fw-semibold mb-4">Send me a message</h2>
+      <h4 className=" text-center mb-4">Fill out the form below and I'll get back to you as soon as possible.</h4>
       <Form className="mx-auto" style={{ maxWidth: '500px' }}>
         <Form.Group className="mb-3">
           <Form.Control type="text" placeholder="Your Name" />
@@ -32,8 +32,8 @@ export default function ContactForm() {
       </Form>
       </div>
 
-<div className="col-6">
-      <Card className=" p-5 rounded-4 shadow">
+<div className="col-lg-6 col-md-6">
+      <Card className=" p-4 rounded-4 shadow bg-dark text-light">
         <h2 className="text-center fw-bold mb-3">Want to work together?</h2>
         <h5 className="text-center text-secondary mb-4">
           Drop me a message on Telegram or use the contact form — I'll get back ASAP.

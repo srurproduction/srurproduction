@@ -23,8 +23,8 @@ export default function Gallery() {
   const handleClose = () => setShowModal(false);
 
   return (
-    <section id="gallery" className="container py-5 text-center">
-      <h2 className="mb-4 fs-1 fw-bolder" >Gallery</h2>
+    <section id="gallery" className=" section-dark container-fluid py-5 text-center">
+      <h2 className="mb-4 fs-1 fw-bolder gradient-text">Gallery</h2>
       <div className="row">
         {images.map((image, index) => (
           <div className='col-md-4 mb-4' key={index}>
