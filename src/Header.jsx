@@ -14,7 +14,7 @@ export default function Header() {
               <h1 className="gradient-text fw-bold mb-2">Uganvi Raja</h1>
               <h4 className="text-light mb-4">Graphic Designer</h4>
               <p
-                className="text-light"
+                className="text-light fw-normal"
                 style={{ fontSize: '1.1rem', lineHeight: '1.7', maxWidth: '700px' }}
               >
                 👉 I'm a passionate graphic designer and video editor offering creative,
@@ -28,10 +28,21 @@ export default function Header() {
                 href="https://wa.me/917324963502"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="btn btn-success mt-3"
+                className="btn fs-6 fw-medium mt-3 btn-hover-grow"
+                style={{padding: '15px 10px', background: 'linear-gradient(to right, #f06292, #a445ff)', color: '#fff', }}
               >
-                <i className="fa-solid fa-phone-volume me-2"></i> Contact +91 7324963502
+                <i className="fa-brands fa-whatsapp me-2"></i> Contact +91 7324963502
               </a>
+              <a
+                href="./Resume.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn btn-dark fs-6 fw-medium mt-3 mx-3 btn-hover-grow"
+                style={{padding: '15px 20px', }}
+              >
+                <i className="fa-solid fa-download me-2"></i> Download cv
+              </a>
+            
             </div>
 
             {/* RIGHT SIDE */}

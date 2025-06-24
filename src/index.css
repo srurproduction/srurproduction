@@ -34,10 +34,20 @@ body,html{
   z-index: 99;
   border: 5px solid white;
 }
+.profile-img:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease-in-out;
+}
 .header {
   background: linear-gradient(180deg, #d4a3a369, #02273557);
   z-index: 99;
   
+}
+.btn-hover-grow{
+  transition: transform 0.3s ease-in-out;
+}
+.btn-hover-grow:hover{
+  transform: scale(1.03);
 }
 .circle-blur{
   height: 800px;
@@ -50,15 +60,7 @@ body,html{
   top: 0;
   right: 20%;
 }
-@keyframes float {
-  0% { transform: translateY(0); }
-  50% { transform: translateY(-10px); }
-  100% { transform: translateY(0); }
-}
 
-.floating-icon {
-  animation: float 6s ease-in-out infinite;
-}
 
 
 
