@@ -6,7 +6,7 @@ export default function Header() {
   return (
     <section className="section-dark" id="header">
       <div className="container-fluid">
-        <header className=" section-dark py-5 shadow-sm" style={{ padding: '80px 20px', zIndex: 99 }}>
+        <header className=" section-dark py-5 shadow-sm" style={{ padding: '80px 20px', zIndex: 99 ,fontFamily:'"Tangerine", cursive'}}>
           <div className="row d-flex align-items-center justify-content-center text-center">
             {/* LEFT SIDE */}
             <div className="col-md-8 text-md-start text-center">

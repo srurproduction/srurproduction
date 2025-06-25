@@ -7,7 +7,7 @@ export default function Services() {
 
   return (
     <section id="services" className="section-dark container-fluid py-5">
-      <h2 className="text-center fs-1 fw-bold mb-5">My <span className="gradient-text">Services</span></h2>
+      <h2 className="text-center fs-1 fw-bold mb-5 ">My <span className="gradient-text">Services</span></h2>
       <div className="row px-3">
         {services.map((service, i) => (
           <div className="col-md-4 mb-4" key={i}>

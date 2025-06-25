@@ -9,6 +9,29 @@ export default function Footer() {
       behaviour: 'smooth'
     })
   }
+   <svg
+        width="100%"
+        height="100%"
+        id="svg"
+        viewBox="0 0 1440 490"
+        xmlns="http://www.w3.org/2000/svg"
+        className="transition duration-300 ease-in-out delay-150"
+      >
+        <defs>
+          <linearGradient id="gradient" x1="2%" y1="65%" x2="98%" y2="35%">
+            <stop offset="5%" stopColor="#ffff77"></stop>
+            <stop offset="95%" stopColor="#5e2903"></stop>
+          </linearGradient>
+        </defs>
+        <path
+          d="M 0,500 L 0,187 C 183,161.5 366,136 606,136 C 846,136 1143,161.5 1440,187 L 1440,500 L 0,500 Z"
+          stroke="none"
+          strokeWidth="0"
+          fill="url(#gradient)"
+          fillOpacity="1"
+          className="transition-all duration-300 ease-in-out delay-150 path-0"
+        ></path>
+      </svg>
   return (
     <footer className="footer">
       <div className="social-icons d-flex justify-content-center mt-3" style={{ gap: '10px', }}>

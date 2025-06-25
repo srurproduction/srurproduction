@@ -11,7 +11,7 @@ export default function ContactForm() {
   };
   return (
     <section id="contact" className=" section-dark container-fluid py-5" >
-      <h1 className='text-center  fs-1 fw-bolder mb-4 underline-style'>Get In Touch</h1>
+      <h1 className='text-center section-title  fs-1 fw-bolder mb-4 underline-style'>Get In Touch </h1>
       <div className="container-fluid">
         <div className="row">
           <div className="col-lg-6 col-md-6">

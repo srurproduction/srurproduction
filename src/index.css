@@ -6,6 +6,8 @@
 body,html{
   overflow-x: hidden;
 }
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Dosis:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Tangerine:wght@400;700&display=swap');
+
 .section-dark {
   background-color:#0f0f0f;
   color: #ffffff;
@@ -61,10 +63,94 @@ body,html{
   right: 20%;
 }
 
+/* testimonials */
+.testimonial-section {
+  background-color: #121212;
+  padding: 60px 20px;
+  text-align: center;
+  color: #fff;
+}
+
+.section-title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #ffdd57; 
+  margin-bottom: 40px;
+  position: relative;
+}
+
+.section-title::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 4px;
+  background: #ffdd57;
+  margin: 10px auto 0;
+  border-radius: 10px;
+}
+
+.testimonial-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.testimonial-box {
+  background-color: #1e1e1e;
+  border-radius: 16px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
+  padding: 25px;
+  max-width: 340px;
+  text-align: left;
+  transition: transform 0.3s ease;
+}
+
+.testimonial-box:hover {
+  transform: translateY(-5px);
+}
+
+.testimonial-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.testimonial-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 15px;
+  border: 2px solid #ffdd57;
+}
+
+.testimonial-role {
+  font-size: 0.9rem;
+  color: #bbbbbb;
+  margin: 0;
+}
+
+.testimonial-text {
+  font-size: 0.95rem;
+  color: #ddd;
+  margin: 10px 0;
+}
+
+.testimonial-stars {
+  color: #ffdd57;
+  font-size: 1.2rem;
+}
+
 
 
 
 /* contact-form */
+#contact{
+   font-family: "STIX Two Text", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
 .underline-style {
   position: relative;
   left: 40%;
@@ -87,7 +173,10 @@ body,html{
   color: white;
   text-align: center;
   padding: 40px 20px;
-  font-family: 'Segoe UI', sans-serif;
+   font-family: "STIX Two Text", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
 }
 
 .social-icons a {
@@ -103,8 +192,7 @@ body,html{
 
 .social-icons a:hover {
   background-color: #ff3366;
-   transform: translateY(-4px); /* yahi line upar uthata hai */
-  /* box-shadow: 0 6px 12px rgba(255, 51, 102, 0.4); thoda glow bhi de diya  */
+   transform: translateY(-4px); 
 }
 
 .heart {

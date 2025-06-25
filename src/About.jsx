@@ -5,18 +5,16 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 export default function About() {
   return (
-    <section  className="section-dark" id="about">
+    <section  className="section-dark" id="about" style={{fontFamily: '"Tangerine", cursive', fontWeight: '500'}}>
       <Container>
-        <h2 className="text-center fs-1 mb-4 fw-bolder">About <span className="gradient-text">Me</span></h2>
+        <h2 className="text-center fs-1 mb-4 fw-bolder" >About <span className="gradient-text">Me</span></h2>
         <Row className="align-items-center">
-          {/* LEFT SIDE */}
           <Col md={6}>
             <p className="fs-5 fw-medium">Hi, I'm <strong>Uganvi Raja</strong>, a passionate Graphic Designer and video Editor who loves turning ideas into vibrant visuals. I specialize in <strong>branding, logo design, social media creatives</strong>, and more.</p>
             <p>I blend modern aesthetics with meaningful design, constantly exploring new trends, fonts, and color palettes.</p>
             <p>Beyond design, I enjoy mentoring new creatives, sipping coffee ☕, and doodling fresh ideas ✍️</p>
           </Col>
 
-          {/* RIGHT SIDE */}
           <Col md={6}>
             <Row>
               <Col sm={6} className="mb-3">
