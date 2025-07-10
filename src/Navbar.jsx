@@ -4,7 +4,7 @@ import logo from './assets/logo.jpeg';
 
 export default function Navbar() {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light sticky-top shadow-sm" style={{
+    <nav className="navbar navbar-expand-lg navbar-light sticky-top shadow-sm fixed-top" style={{
     background: "linear-gradient(135deg, #8B5E3C, #D8A055)", boxShadow: "0 10px 25px rgba(0, 0, 0, 0.15)"
 }}>
       <div className="container">
