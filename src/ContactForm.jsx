@@ -15,10 +15,10 @@ export default function ContactForm() {
     e.preventDefault();
 
     emailjs.sendForm(
-      'service_cm1eve6',      
-      'template_cmpy38p',   
+      'service_cm1eve6',
+      'template_cmpy38p',
       form.current,
-      { publicKey: 'DFadBcOb7h3wGmQZG' }  
+      { publicKey: 'DFadBcOb7h3wGmQZG' }
     ).then(
       () => {
         alert("Message sent successfully ✅");
@@ -69,14 +69,26 @@ export default function ContactForm() {
                 <Button variant="outline-dark" size="sm" onClick={handleCopy}>Copy</Button>
               </div>
 
-              <div className="d-grid gap-2 mb-3">
-                <Button variant="danger">
-                  <i className="fab fa-telegram me-2"></i>DM on Telegram
-                </Button>
-                <Button variant="secondary" className="text-dark">
-                  <i className="fa-solid fa-envelope me-2"></i>Send Email
-                </Button>
-              </div>
+           <div className="d-grid gap-2 mb-3">
+  <a
+    href="https://wa.me/7324963502" 
+    target="_blank"
+    rel="noopener noreferrer"
+    className="btn btn-success"
+  >
+    <i className="fab fa-whatsapp me-2"></i>
+    Chat on WhatsApp
+  </a>
+
+  <a
+    href="mailto:srurproduction@gmail.com"
+    className="btn btn-secondary text-dark"
+  >
+    <i className="fa-solid fa-envelope me-2"></i>
+    Send Email
+  </a>
+</div>
+
 
               <p className="text-center text-muted small mb-0">Usually respond within 24 hours</p>
               <p className="text-center text-muted small">Open to freelance projects and collaboration opportunities</p>

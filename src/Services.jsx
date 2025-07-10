@@ -3,7 +3,7 @@ import { Card, Button } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 
 export default function Services() {
-  const services = ["Branding", "Logo Design", "Social Media", "Posters", "Packaging", "UI/UX"];
+  const services = ["Packaging", "Logo Design", "Social Media", "Posters", "Branding", "Thumbnail"];
 
   return (
     <section id="services" className="section-dark container-fluid py-5">
