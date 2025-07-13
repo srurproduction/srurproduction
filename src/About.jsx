@@ -5,7 +5,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 export default function About() {
   return (
-    <section  className="section-dark" id="about" style={{fontFamily: '"Tangerine", cursive', fontWeight: '500'}}>
+    <section className="section-dark" id="About" style={{fontFamily: '"Tangerine", cursive', fontWeight: '500'}}>
       <Container>
         <h2 className="text-center fs-1 mb-4 fw-bolder" >About <span className="gradient-text">Me</span></h2>
         <Row className="align-items-center">
@@ -21,7 +21,7 @@ export default function About() {
                 <Card className="text-center bg-dark text-white">
                   <Card.Body>
                     <FaPalette size={30} className="mb-2" style={{ color: "#ff007a" }}/>
-                    <h4 className="gradient-text fs-2">200+</h4>
+                    <h4 className="gradient-text fs-2">70+</h4>
                     <p style={{color:'#A1A1AA'}}>Design Projects</p>
                   </Card.Body>
                 </Card>
@@ -39,7 +39,7 @@ export default function About() {
                 <Card className="text-center bg-dark text-white">
                   <Card.Body>
                     <FaSmile size={30} className="mb-2" style={{ color: "#ff007a" }} />
-                    <h4 className="gradient-text fs-2">50+</h4>
+                    <h4 className="gradient-text fs-2">30+</h4>
                     <p style={{color:'#A1A1AA'}}>Happy Clients</p>
                   </Card.Body>
                 </Card>
