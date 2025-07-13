@@ -27,7 +27,7 @@ const testimonials = [
 
 export default function Testimonials() {
   return (
-    <section className="testimonial-section">
+    <section className="testimonial-section" id="testimonials">
       <h2 className="section-title">What Clients Say</h2>
       <div className="testimonial-container">
         {testimonials.map((item, index) => (
